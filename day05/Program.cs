@@ -9,7 +9,7 @@ namespace day05
     {
         static void Main(string[] args)
         {
-            int[] input = File.ReadAllText(@"C:\Users\Nico Ambrosini\source\repos\adventofcode-cs\day05\input").Split(",").Select(e => int.Parse(e)).ToArray();
+            int[] input = File.ReadAllText("input").Split(",").Select(e => int.Parse(e)).ToArray();
 
             // Part 1
             int[] memoryP1 = input.ToArray();

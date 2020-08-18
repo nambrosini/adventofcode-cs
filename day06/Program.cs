@@ -12,7 +12,7 @@ namespace day06
     {
         static void Main(string[] args)
         {
-            List<Orbit> input = File.ReadAllLines(@"C:\Users\Nico Ambrosini\source\repos\adventofcode-cs\day06\input").Select(l => (Orbit)l).ToList();
+            List<Orbit> input = File.ReadAllLines("input").Select(l => (Orbit)l).ToList();
 
             #region Part 1
             Dictionary<string, List<Orbit>> orbitMap = new Dictionary<string, List<Orbit>>();
