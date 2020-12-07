@@ -9,7 +9,7 @@ namespace day10
     {
         static void Main(string[] args)
         {
-            var input = File.ReadAllLines(@"C:\Users\Nico Ambrosini\source\repos\adventofcode-cs\day10\input").ToArray();
+            var input = File.ReadAllLines(@"/Users/nambrosini/Projects/adventofcode-cs/day10/input").ToArray();
 
             var space = new Space(input);
 
