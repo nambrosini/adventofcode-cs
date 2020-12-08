@@ -62,8 +62,6 @@ namespace day07
 
             for (var i = 0; i < bagsContainingGold.Count; i++)
             {
-                if (bags[bagsContainingGold[i]].Count != 0)
-                    Console.WriteLine(string.Join(", ", bags[bagsContainingGold[i]].Keys));
                 bagsContainingGold.AddRange(bags[bagsContainingGold[i]].Keys);
             }
 
